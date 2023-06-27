@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 100px;
+	padding-top: 90px;
+}
+
+footer {
+    background-color: #53af47;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.button {
+    display: inline-block;
+    background-color: #53af47;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 2px;
+    border: none;
+	border-radius: 5rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #026db6;
+	transition: 1s ease-in-out;
+	
+}
